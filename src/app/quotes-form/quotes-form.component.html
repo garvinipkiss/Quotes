@@ -7,3 +7,8 @@
 <label for="name">Name</label>
 <input type="text" required class="form-control" id="name" [(ngModel)]="newQuote.name" name="name" #name="ngModel" required>
 </div>
+<!-- Description Input -->
+<div class="form-group">
+<label for="description">Quote</label>
+<textarea class="form-control" id="description" rows="4" [(ngModel)]="newQuote.description" name="description" #description="ngModel" required></textarea>
+</div>
