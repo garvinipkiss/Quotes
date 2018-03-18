@@ -16,6 +16,11 @@ describe('AppComponent', () => {
   expect(app).toBeTruthy();
 }));
 
+it(`should have as title 'app'`, async(() => {
+  const fixture = TestBed.createComponent(AppComponent);
+  const app = fixture.debugElement.componentInstance;
+  expect(app.title).toEqual('app');
+}));
   beforeEach(() => {
     fixture = TestBed.createComponent(QuoteComponent);
     component = fixture.componentInstance;
