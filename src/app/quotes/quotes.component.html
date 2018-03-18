@@ -3,3 +3,10 @@
     <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
   </div>
 </div>
+<div class="container">
+<ul>
+  <div *ngFor='let quote of quotes;let i = index'>
+    <div class="tabs">
+  <div class="row">
+  <div class="col-md-0">
+</div>
