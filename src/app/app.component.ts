@@ -7,5 +7,5 @@ import { Quote } from './quote'
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+
 }
