@@ -1,12 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { Quotes } from '../quotes'
-
+import { Quote } from '../quote'
 @Component({
   selector: 'app-quote',
   templateUrl: './quote.component.html',
   styleUrls: ['./quote.component.css']
 })
-
 export class QuoteComponent implements OnInit {
     quotes = [
   new Quotes(1,"Garvin Berserk","If you cannot do great things, do small things in a great way.", new Date(2017,11,15)),
