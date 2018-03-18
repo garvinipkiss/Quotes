@@ -10,3 +10,12 @@
   <div class="row">
   <div class="col-md-0">
 </div>
+<div class="col-md-12">
+    <li id="{{i}}">{{quote.name}}</li>
+    <app-quote-details [quote]='quote' (isComplete)= 'deleteQuote($event,i)' ></app-quote-details>
+</div>
+</div>
+</div>
+  </div>
+</ul>
+</div>
