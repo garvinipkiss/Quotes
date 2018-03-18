@@ -15,6 +15,7 @@ export class QuoteComponent implements OnInit {
   new Quotes(6,"Benjamin", "Whoever is happy will make others happy too.", new Date(2018,1.9))
 ]
 
+
 deleteQuote(isComplete,index){
   if (isComplete){
     let toDelete=confirm('Are you sure you want to delete quote')
