@@ -15,3 +15,26 @@ export class QuoteComponent implements OnInit {
   new Quote(5,"Marcus Garvey", "Black is Beautiful.",new Date(2018,1.7)),
   new Quote(6,"Benjamin", "Whoever is happy will make others happy too.", new Date(2018,1.9))
 ]
+
+deleteQuote(isComplete,index){
+  if (isComplete){
+    let toDelete=confirm('Are you sure you want to delete quote')
+    if(toDelete){
+      this.quotes.splice(index,1)
+    }
+  }
+}
+
+  addNewQuote(quote){
+      let quoteLength = this.quotes.length;
+      quote.id=quoteLength+1;
+      quote.completeDate = new Date(quote.completeDate)
+      this.quotes.push(quote)
+
+  }
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}
