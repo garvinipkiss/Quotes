@@ -8,7 +8,7 @@ import { Quote } from '../quote'
 export class QuoteComponent implements OnInit {
     quotes = [
   new Quote(1,"Liz","Opportunity comes once in a life time.", new Date(2018,16,04)),
-  new Quote(2,"Garvin Berserk If opportunity doesn't knock, build a door", new Date(2018,1.1)),
+  new Quote(2,"Garvin Berserk If opportunity doesn't knock, build a door.",new Date(2018,1.1)),
   new Quote(3," Benjamin Wanjala", "If you cannot do great things, do small things in a great way.", new Date(2018,1,3)),
   new Quote(4,"Nelson Mandela", "The most difficult thing is the decision to act, the rest is merely tenacity.", new Date(2018,1.5)),
   new Quote(5,"Marcus Garvey", "Black is beautiful.",new Date(2018,1.7)),
