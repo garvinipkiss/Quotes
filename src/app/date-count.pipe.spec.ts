@@ -1,8 +1,8 @@
-import { DateCountPipe } from './date-count.pipe';
+import { StrikethroughDirective } from './strikethrough.directive';
 
-describe('DateCountPipe', () => {
-  it('create an instance', () => {
-    const pipe = new DateCountPipe();
-    expect(pipe).toBeTruthy();
+describe('StrikethroughDirective', () => {
+  it('should create an instance', () => {
+    const directive = new StrikethroughDirective();
+    expect(directive).toBeTruthy();
   });
 });
