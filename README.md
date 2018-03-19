@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.3.
 
-#### {Its a webapp where users may read, vote and post quotes}, {Developed in 017-03-2018}
+#### {Its a webapp where users may read, vote and post quotes}, {Developed in 17-03-2018}
 
 #### Developed By
 
@@ -27,7 +27,7 @@ Run `ng serve` for a developer server. Navigate to `http://localhost:4200/`. The
 {Facebook: Garvin Berserk}
 
 ## MIT License
-Copyright (c) [2017] [Garvin Ogolla]
+Copyright (c) [2018] [Garvin Ogolla]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
