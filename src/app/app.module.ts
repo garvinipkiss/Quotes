@@ -7,6 +7,7 @@ import { QuoteComponent } from './quote/quote.component';
 import { QuoteDetailsComponent } from './quote-details/quote-details.component';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,6 +23,3 @@ import { QuoteFormComponent } from './quote-form/quote-form.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
-ngOnInit() {
-
-}

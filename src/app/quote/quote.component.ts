@@ -7,12 +7,12 @@ import { Quote } from '../quote'
 })
 export class QuoteComponent implements OnInit {
     quotes = [
-  new Quotes(1,"Garvin Berserk","If you cannot do great things, do small things in a great way.", new Date(2017,11,15)),
-  new Quotes(2,"Liz", "opportunity comes once in a life time.", new Date(2018,1.1)),
-  new Quotes(3," Garvin Berserk", "If opportunity doesn't knock, build a door.", new Date(2018,1,3)),
-  new Quotes(4,"Snoop Dogg", "Happiness can exist only in acceptance.", new Date(2018,1.5)),
-  new Quotes(5,"Marcus Garvey", "Black is Beautiful.",new Date(2018,1.7)),
-  new Quotes(6,"Benjamin", "Whoever is happy will make others happy too.", new Date(2018,1.9))
+  new Quote(1,"Dr. Seuss","Don't cry because it's over, smile because it happened.", new Date(2017,11,15)),
+  new Quote(2,"Oscar Wilde", "Be yourself; everyone else is already taken.", new Date(2018,1.1)),
+  new Quote(3," Marilyn Monroe", "I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best.", new Date(2018,1,3)),
+  new Quote(4,"Albert Einstein", "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.", new Date(2018,1.5)),
+  new Quote(5,"Marcus Tullius Cicero", "A room without books is like a body without a soul.",new Date(2018,1.7)),
+  new Quote(6,"Bernard M. Baruch", "Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind.", new Date(2018,1.9))
 ]
 
 
