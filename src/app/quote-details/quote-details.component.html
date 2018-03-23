@@ -1,5 +1,8 @@
 <p>{{quote.description}}</p>
 <p>This quote was posted on {{quote.completeDate|dateCount}} days</p>
 
+<button (click)='voteUp()' class="btn btn-success" type="submit">upvote</button>
+
+<button (click)='votedown()' class="btn btn-success" type="submit">downvote</button>
 
 <button (click) = 'quoteDelete(true)'>Delete Quote</button>
