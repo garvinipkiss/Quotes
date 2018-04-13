@@ -1,7 +1,7 @@
 @import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic);
 
-body{ margin: 20px; }
+body{ margin: 20px;color: white;}
 h1 { font-size: 1.5em; margin: 10px; }
 
 $size : 10rem;
