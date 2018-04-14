@@ -16,11 +16,16 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a developer server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+## Specifications
+* This app allows users to add a new quote
+* Also allows the users to upvote and downvote various quotes that are posted/updated.
+* users are able to delete quotes.
 
 ## Technologies Used
 
-{Angular Cli}
-{css}
+1. Angular Cli
+2. css
+
 ## Support and contact details
 
 {Email:garvinipkiss@gmail.com}
